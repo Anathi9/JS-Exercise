@@ -331,10 +331,14 @@
 // let car3 = Object.assign({}, car1)
 // console.log("===car3===");
 // console.log(car3);
+// car3.year = 2025
+// console.log(car3);
+
 // console.assert("JSON.parse()");
 // let car4 = JSON.parse(JSON.stringify(car1))
 // console.log(car4);
-
+// car4.year = 2025
+// console.log(car4);
 
 //string method
 // let firstName = "Anathi"
@@ -367,5 +371,81 @@
 // let myArr = new Array(3, 5, 11)
 // console.log(myArr);
 
-let firstName = String("Anathi")
-console.log(firstName);
+// let firstName = String("Anathi")
+// // CHARAT() 
+// console.log(firstName.charAt(4));
+// console.log(firstName.replace())
+// console.log(firstName)
+
+
+
+
+
+
+
+
+// create an array that contains 6 elements but the first two elements must be a number.
+ //NB make sure that the element at position 4 is in lowercase.
+
+// let data = [2, 5, 'Nikita', 'Shawn', 'candince', 'Matthew']
+
+// Create two objects and add the objects into an array, log the objects as well.
+// let person1 = {
+//     firstName: 'Thimna'
+// }
+// let person2 = {
+//     firstName: 'Veronique'    
+// }
+// create an empty array
+// let personDetails = []
+// personDetails.push(person1)
+// personDetails.push(person2)
+// console.log(personDetails);
+// console.log(person1);
+// console.log(person2);
+
+// let firstName = 'Zubair'
+// if(firstName) { 
+//     console.log("present");
+// }else {
+//     console.log("Absent");
+// } 
+
+// let firstName = 'Zubair'
+// let state = 'late'
+// if(state == 'present'){
+// console.log("present");
+// }else if(state == 'late'){ 
+//     console.log("late");
+// }else {
+//     console.log("absent");
+// }
+
+// switch (true) { 
+//     case state == 'present':
+//         console.log("present");
+//     break;
+//     case state !="":
+//         console.log("late");
+//         case state !="":
+//             console.log("late -> Final warning");
+//             break;
+//             default:
+//                 console.log("absent");
+//                 break;
+         //}
+
+         // maths methods
+        //  let numbers = [9, 4, 2,5, 10]
+        //  function highestNumber(args){
+        //     for(let number of args){
+        //         console.log(number);
+
+        //     }
+        //  }
+        //  highestNumber(numbers)
+let numbers = [9, 4,20, 2,5,10]
+console.log(math.max(...numbers));
+console.log(math.min(...numbers));
+let size = math.floor(numbers.length / 2)
+console.log(number[size]);
